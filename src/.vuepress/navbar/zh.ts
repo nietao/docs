@@ -1,7 +1,14 @@
+/*
+ * @Author: 聂涛
+ * @Date: 2023-04-07 11:07:53
+ * @LastEditors: 聂涛
+ * @LastEditTime: 2023-04-07 15:23:37
+ * @Description: 
+ */
 import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
-  "/zh/",
+  "/",
   { text: "演示", icon: "discover", link: "/zh/demo/" },
   {
     text: "博文",

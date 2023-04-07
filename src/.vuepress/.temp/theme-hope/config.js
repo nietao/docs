@@ -1,13 +1,13 @@
 import { defineClientConfig } from "@vuepress/client";
 
-import { HopeIcon, Layout, NotFound, useScrollPromise, injectDarkmode, setupDarkmode, setupSidebarItems } from "/Users/nietao/me/vuepress/my-docs/node_modules/vuepress-theme-hope/lib/client/export.js";
+import { HopeIcon, Layout, NotFound, useScrollPromise, injectDarkmode, setupDarkmode, setupSidebarItems } from "/Users/nietao/me/vuepress/docs/node_modules/vuepress-theme-hope/lib/client/export.js";
 
-import { BlogCategory, BlogHome, BlogType, BloggerInfo, Timeline, setupBlog } from "/Users/nietao/me/vuepress/my-docs/node_modules/vuepress-theme-hope/lib/client/modules/blog/export.js";
-import "/Users/nietao/me/vuepress/my-docs/node_modules/vuepress-theme-hope/lib/client/modules/blog/styles/layout.scss";
-import { GlobalEncrypt, LocalEncrypt } from "/Users/nietao/me/vuepress/my-docs/node_modules/vuepress-theme-hope/lib/client/modules/encrypt/export.js";
-import Slide from "/Users/nietao/me/vuepress/my-docs/node_modules/vuepress-plugin-md-enhance/lib/client/SlidePage.js";
+import { BlogCategory, BlogHome, BlogType, BloggerInfo, Timeline, setupBlog } from "/Users/nietao/me/vuepress/docs/node_modules/vuepress-theme-hope/lib/client/modules/blog/export.js";
+import "/Users/nietao/me/vuepress/docs/node_modules/vuepress-theme-hope/lib/client/modules/blog/styles/layout.scss";
+import { GlobalEncrypt, LocalEncrypt } from "/Users/nietao/me/vuepress/docs/node_modules/vuepress-theme-hope/lib/client/modules/encrypt/export.js";
+import Slide from "/Users/nietao/me/vuepress/docs/node_modules/vuepress-plugin-md-enhance/lib/client/SlidePage.js";
 
-import "/Users/nietao/me/vuepress/my-docs/node_modules/vuepress-theme-hope/lib/client/styles/index.scss";
+import "/Users/nietao/me/vuepress/docs/node_modules/vuepress-theme-hope/lib/client/styles/index.scss";
 
 export default defineClientConfig({
   enhance: ({ app, router }) => {

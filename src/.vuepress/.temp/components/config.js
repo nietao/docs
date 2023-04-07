@@ -1,13 +1,13 @@
 import { defineClientConfig } from "@vuepress/client";
-import { hasGlobalComponent } from "/Users/nietao/me/vuepress/my-docs/node_modules/vuepress-plugin-components/lib/client/shared.js";
+import { hasGlobalComponent } from "/Users/nietao/me/vuepress/docs/node_modules/vuepress-plugin-components/lib/client/shared.js";
 import { h } from "vue";
 
-import { useStyleTag } from "/Users/nietao/me/vuepress/my-docs/node_modules/vuepress-plugin-components/lib/client/vueuse.js";
-import Badge from "/Users/nietao/me/vuepress/my-docs/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
-import FontIcon from "/Users/nietao/me/vuepress/my-docs/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
-import BackToTop from "/Users/nietao/me/vuepress/my-docs/node_modules/vuepress-plugin-components/lib/client/components/BackToTop.js";
+import { useStyleTag } from "/Users/nietao/me/vuepress/docs/node_modules/vuepress-plugin-components/lib/client/vueuse.js";
+import Badge from "/Users/nietao/me/vuepress/docs/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
+import FontIcon from "/Users/nietao/me/vuepress/docs/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
+import BackToTop from "/Users/nietao/me/vuepress/docs/node_modules/vuepress-plugin-components/lib/client/components/BackToTop.js";
 
-import "/Users/nietao/me/vuepress/my-docs/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
+import "/Users/nietao/me/vuepress/docs/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
 
 export default defineClientConfig({
   enhance: ({ app }) => {

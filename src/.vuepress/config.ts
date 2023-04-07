@@ -2,7 +2,7 @@
  * @Author: 聂涛
  * @Date: 2023-04-07 11:07:53
  * @LastEditors: 聂涛
- * @LastEditTime: 2023-04-07 13:58:50
+ * @LastEditTime: 2023-04-07 15:39:19
  * @Description: 
  */
 import { defineUserConfig } from "vuepress";
@@ -10,17 +10,10 @@ import theme from "./theme.js";
 
 export default defineUserConfig({
   base: "/docs/",
-
   locales: {
     "/": {
-      lang: "en-US",
-      title: "Blog Demo",
-      description: "A blog demo for vuepress-theme-hope",
-    },
-    "/zh/": {
-      lang: "zh-CN",
-      title: "博客演示",
-      description: "vuepress-theme-hope 的博客演示",
+      title: "一位坚定的共产主义战士",
+      description: "我叫小埋，埋人的埋",
     },
   },
 
