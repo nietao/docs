@@ -2,14 +2,14 @@
  * @Author: 聂涛
  * @Date: 2023-04-07 11:07:53
  * @LastEditors: 聂涛
- * @LastEditTime: 2023-04-07 13:55:09
+ * @LastEditTime: 2023-04-07 13:58:50
  * @Description: 
  */
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/home/",
+  base: "/docs/",
 
   locales: {
     "/": {
